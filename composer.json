@@ -1,0 +1,19 @@
+{
+    "name": "pdffiller/laravel-mail-driver",
+    "description": "Pdffiller's mailer driver for laravel mail provider.",
+    "require": {
+        "laravel/framework": "5.3.*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maxim Maximenko",
+            "email": "maximenko.m@pdffiller.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Pdffiller\\LaravelMailDriver\\": "src/"
+        }
+    }
+}
